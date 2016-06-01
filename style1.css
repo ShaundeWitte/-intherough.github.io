@@ -1,0 +1,100 @@
+body{
+	min-width: 400px;
+	max-width: 1500px;
+	margin:0px auto;
+}
+
+nav, footer, aside, section{
+	border: solid 0px black;
+	height: 80px;
+}
+
+main ul li a{
+	display: block;
+	margin: 3px;
+}
+ nav {
+ 	padding: 50px, 50px, 50px,50px;
+ 	margin: 0px, 50px, 0px, 50px;
+ }
+  nav, footer {
+  	width: 100%;
+  	background-color: #AFEEEE;
+  }
+  div{
+  	
+  }
+  footer{
+  	position:fixed;
+    bottom:0;
+    height: 50px;
+  }
+  h1{
+	margin-left: 120px;
+	font-family: helvetica;
+	font-weight: 500;
+	color: grey;
+}
+
+a{
+	color: grey;
+}
+  #logo{
+  	margin: 60px;
+  	margin-top: 0px;
+  	margin-left: 8.5%;
+  }
+  ul li{
+	text-align: left;
+	width: 194px;
+	padding: 5px 5px 0px 5px;
+	margin-bottom: 20px;
+	display: inline-block;
+	font-family: helvetica;
+	font-size: 20px;
+	margin-left: 5%;
+}
+#icons{
+	margin-left: 1100px;
+}
+#bag{
+	margin-left: 13%;
+	margin-bottom: 10%;
+}
+#monkey{
+	margin-left: 15%;
+	margin-bottom: 10%;
+}
+#jjblack{
+	margin-left: 40%;
+	margin-top: -100%;
+	margin-bottom: 1%;
+}
+#jjwhite{
+	margin-right: 70%
+	margin-left: 50%;
+}
+#wired{
+	margin-left:20%;
+	margin-bottom:10%;
+}
+hr{
+	width: 100%;
+	margin-left:0px;
+}
+#sm{
+	float: right;
+	display: inline;
+	margin-right: 70px;
+	margin-top: 10px;
+}
+@media screen and (min-width:300px) and (max-width: 600px){
+	body {
+
+	}
+	main, ul,li{
+
+		display: inline-block;
+		width: 98%;
+	}
+}
